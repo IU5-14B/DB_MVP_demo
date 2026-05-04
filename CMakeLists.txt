@@ -7,11 +7,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_library(db_mvp STATIC
-    src/Database.cpp
-    src/Parser.cpp
-    src/QueryExecutor.cpp
+    src/******.cpp
+    src/******.cpp
+    src/******.cpp
     src/Result.cpp
-    src/Storage.cpp
+    src/******.cpp
 )
 
 target_include_directories(db_mvp PUBLIC include)
